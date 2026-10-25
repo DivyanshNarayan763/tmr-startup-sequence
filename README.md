@@ -19,9 +19,7 @@ docs/   - Documentation and diagrams
 
 ## Status
 
-Current implementation is event-driven using button-triggered state transitions.
-
-A clocked implementation with synchronized inputs is planned for a future revision.
+The design utilises two FSMs to manage mode control and startup sequence. It also accounts for external BOOST override aswell as IMD fault assertion.
 
 ## License
 
