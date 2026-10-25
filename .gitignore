@@ -1,0 +1,79 @@
+# =========================
+# Simulation Outputs
+# =========================
+*.vcd
+*.fst
+*.wlf
+*.vvp
+*.log
+*.jou
+*.pb
+*.str
+*.xml
+
+# Waveform databases
+*.wdb
+*.asdb
+*.trn
+
+# =========================
+# Vivado
+# =========================
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.gen/
+.srcs/
+.Xil/
+
+*.xpr
+*.bit
+*.bin
+*.ltx
+
+# =========================
+# XSim
+# =========================
+xsim.dir/
+webtalk*
+usage_statistics_webtalk.*
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Python (if you later add scripts)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Generated synthesis/netlists
+# =========================
+*.edf
+*.edif
+*.ngc
+*.ngd
+*.dcp
+
+# =========================
+# Quartus (if ever used)
+# =========================
+db/
+incremental_db/
+output_files/
